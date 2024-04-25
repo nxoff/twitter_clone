@@ -1,0 +1,60 @@
+.main-sign-in {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+h1 {
+	margin: 0;
+	padding: 0 20px 20px 0;
+	font-size: 60px;
+	font-weight: 900;
+}
+
+header > span {
+	font-weight: 800;
+	font-size: 32px;
+	text-shadow: 0px 0px 2px white;
+}
+
+.left-bar {
+}
+
+.right-bar {
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 50px;
+}
+
+.sign-in-form {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-start;
+	gap: 20px;
+}
+
+.sign-in-form > input[type='text'] {
+	width: 200px;
+	background-color: white;
+	border: none;
+	outline: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 25px;
+}
+
+form > span {
+	font-size: 16px;
+}
+
+header {
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 50px;
+}
